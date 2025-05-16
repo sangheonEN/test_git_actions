@@ -2,7 +2,7 @@
 
 # Add torch-specific collected data to the main analysis
 a = Analysis(
-    ['app/main.py'],
+    ['main.py'],
     pathex=[],
     binaries=[],  # Add torch binaries
     datas=[],  # Add torch datas
