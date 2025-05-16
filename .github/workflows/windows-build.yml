@@ -30,6 +30,9 @@ jobs:
       run: |
         pyinstaller app/pyinstaller_test.spec
 
+    - name: Show dist folder contents
+      run: dir dist
+
     - name: Upload artifact
       uses: actions/upload-artifact@v3
       with:
